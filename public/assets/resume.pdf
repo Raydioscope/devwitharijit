@@ -1,0 +1,32 @@
+// Note: Since we cannot generate actual binary PDF files, this would be a placeholder.
+// In a real implementation, you would place Arijit Ray's actual PDF resume here.
+// 
+// For GitHub Pages deployment, you can create a simple HTML-to-PDF version
+// or use a service like Puppeteer to generate the PDF from the portfolio content.
+//
+// The PDF should contain:
+// - Contact Information
+// - Professional Summary
+// - Technical Skills
+// - Work Experience (detailed)
+// - Education & Certifications
+// - Key Projects
+// - Awards & Achievements
+//
+// File should be named: resume.pdf
+// Location: assets/resume.pdf
+// Size: Recommended under 2MB for web optimization
+
+console.log('Resume PDF placeholder - Replace with actual PDF file');
+
+// Alternative: Create a dynamic PDF generation function
+const generateResumePDF = () => {
+    // This would use a library like jsPDF to create a PDF from the portfolio data
+    // Implementation would extract data from the HTML and format it for PDF
+    return 'PDF generation would be implemented here';
+};
+
+// Export for potential use in build scripts
+if (typeof module !== 'undefined' && module.exports) {
+    module.exports = { generateResumePDF };
+}
